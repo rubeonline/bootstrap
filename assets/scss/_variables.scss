@@ -1,8 +1,8 @@
 // Local docs variables
-$bd-purple:          #563d7c;
+$bd-purple:          $gray-200;
 $bd-purple-bright:   lighten(saturate($bd-purple, 5%), 15%);
-$bd-purple-light:    #cdbfe3;
-$bd-purple-lightest: #f5f2f9;
+$bd-purple-light:    #fff;
+$bd-purple-lightest: #fff;
 $bd-graphite:        #2a2730;
 $bd-graphite-light:  lighten($bd-graphite, 40%);
 $bd-yellow:          #ffe484;

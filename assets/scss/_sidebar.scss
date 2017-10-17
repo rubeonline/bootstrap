@@ -114,10 +114,10 @@
   display: block;
   padding: .25rem 1.5rem;
   font-weight: 500;
-  color: rgba(0,0,0,.65);
+  color: $white;
 
   &:hover {
-    color: rgba(0,0,0,.85);
+    color: $gray-700;
     text-decoration: none;
   }
 }
@@ -131,7 +131,7 @@
     }
 
     > .bd-toc-link {
-      color: rgba(0,0,0,.85);
+      color: $white;
 
       &:hover {
         background-color: transparent;
@@ -149,11 +149,11 @@
   display: block;
   padding: .25rem 1.5rem;
   font-size: 90%;
-  color: rgba(0,0,0,.65);
+  color: $white;
 }
 
 .bd-sidebar .nav > li > a:hover {
-  color: rgba(0,0,0,.85);
+  color: $gray-700;
   text-decoration: none;
   background-color: transparent;
 }
@@ -161,6 +161,6 @@
 .bd-sidebar .nav > .active > a,
 .bd-sidebar .nav > .active:hover > a {
   font-weight: 500;
-  color: rgba(0,0,0,.85);
+  color: $gray-700;
   background-color: transparent;
 }

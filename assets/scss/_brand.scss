@@ -10,7 +10,7 @@
   width: 100%;
   margin-bottom: 1rem;
   overflow: hidden;
-  color: #563d7c;
+  color: $gray-200;
   background-color: #f9f9f9;
   border-radius: .25rem;
 }
@@ -25,7 +25,7 @@
 }
 .bd-brand-logos .inverse {
   color: #fff;
-  background-color: #563d7c;
+  background-color: $gray-200;
 }
 
 // Heading content within
